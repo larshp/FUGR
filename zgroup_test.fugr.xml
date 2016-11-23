@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>TEST</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZGROUP_TESTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZGROUP_TEST</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZGROUP_TEST_TEST</FUNCNAME>
+     <INCLUDE>LZGROUP_TESTU01</INCLUDE>
+     <GLOBAL_FLAG/>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <UPDATE_TASK/>
+     <SHORT_TEXT>test</SHORT_TEXT>
+     <REMOTE_BASXML/>
+     <IMPORT/>
+     <CHANGING/>
+     <EXPORT/>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>BLAH</PARAMETER>
+       <DBSTRUCT/>
+       <TYPES/>
+       <OPTIONAL/>
+       <TYP>ZFUGR_TEST_TT</TYP>
+       <CLASS/>
+       <REF_CLASS/>
+       <LINE_OF/>
+       <TABLE_OF/>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION/>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BLAH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>table type</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <DYNPROS/>
+   <CUA>
+    <ADM>
+     <ACTCODE/>
+     <MENCODE/>
+     <PFKCODE/>
+     <DEFAULTACT/>
+     <DEFAULTPFK/>
+     <MOD_LANGU/>
+    </ADM>
+    <STA/>
+    <FUN/>
+    <MEN/>
+    <MTX/>
+    <ACT/>
+    <BUT/>
+    <PFK/>
+    <SET/>
+    <DOC/>
+    <TIT/>
+    <BIV/>
+   </CUA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
